@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "HOST=0.0.0.0 nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/style-resources": "^1.2.1",
+    "@nuxtjs/supabase": "^0.1.25",
+    "formidable": "^2.0.1",
+    "nuxt": "^3.0.0-rc.12",
+    "nuxt-icon": "^0.1.6",
+    "sass": "^1.54.9",
+    "sass-loader": "^13.0.2"
+  },
+  "dependencies": {
+    "@formkit/nuxt": "*",
+    "@formkit/themes": "^1.0.0-beta.11-ed5db9e",
+    "@nuxtjs/i18n": "npm:@nuxtjs/i18n-edge",
+    "@vueform/multiselect": "^2.5.6",
+    "bootstrap": "^5.2.2",
+    "vue-dataset": "^3.4.8",
+    "vue-toastification": "^2.0.0-rc.5"
+  }
+}
